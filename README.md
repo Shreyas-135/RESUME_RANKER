@@ -1,26 +1,10 @@
 # Resume Ranking Application
 
-[![Development](https://github.com/vectornguyen76/resume-ranking/actions/workflows/development_pipeline.yml/badge.svg)](https://github.com/vectornguyen76/resume-ranking/actions/workflows/development_pipeline.yml)
-[![Staging](https://github.com/vectornguyen76/resume-ranking/actions/workflows/staging_pipeline.yml/badge.svg)](https://github.com/vectornguyen76/resume-ranking/actions/workflows/staging_pipeline.yml)
-[![Production](https://github.com/vectornguyen76/resume-ranking/actions/workflows/production_pipeline.yml/badge.svg)](https://github.com/vectornguyen76/resume-ranking/actions/workflows/production_pipeline.yml)
 
 ## Overview
 
 The Resume Ranking Application is an AI-powered recruitment tool that leverages Large Language Models (LLM) and advanced NLP techniques to automatically evaluate, analyze, and rank resumes based on job requirements. Built with FastAPI, Next.js, and OpenAI's GPT models, it provides intelligent candidate-job matching with detailed scoring and analysis.
 
-## Demo Video
-
-[![Resume Ranking Application Demo](https://img.youtube.com/vi/Gd178Pd48Q4/0.jpg)](https://youtu.be/Gd178Pd48Q4)
-
-Click the image above to watch the demo video on YouTube.
-
-## Architecture
-
-<p align="center">
-  <img src="./assets/architecture.png" alt="Architecture" />
-  <br>
-  <em>System Architecture</em>
-</p>
 
 ## Key Technologies
 
@@ -93,7 +77,7 @@ Detailed documentation on system architecture, API endpoints, and configuration 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/vectornguyen76/resume-ranking.git
+   git clone https://github.com/Shreyas-135/RESUME_RANKER
    ```
 
 2. **Configure Environment**:
@@ -139,10 +123,6 @@ Detailed documentation on system architecture, API endpoints, and configuration 
   - Docker image builds
   - Deployment automation
 
-## Contributors
-
-- [Pham Phu Ngoc Trai](https://github.com/jayllfpt)
-- [Vector Nguyen](https://github.com/vectornguyen76)
 
 ## License
 
