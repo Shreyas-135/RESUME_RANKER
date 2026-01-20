@@ -96,13 +96,40 @@ Detailed documentation on system architecture, API endpoints, and configuration 
 3. **Build and Run**:
 
    ```bash
-   cd resume-ranking
+   cd RESUME_RANKER
    docker compose build
    docker compose up
    ```
 
 4. **Access Application**:
    - Frontend: `http://your-ip-address`
+
+## Deployment
+
+### AWS Deployment
+For detailed instructions on deploying to AWS, see the [AWS Deployment Guide](./docs/AWS_DEPLOYMENT.md).
+
+### Quick Deploy to AWS EC2
+```bash
+# On your EC2 instance (Ubuntu 22.04)
+git clone https://github.com/Shreyas-135/RESUME_RANKER
+cd RESUME_RANKER
+cp analysis_service/.env.example analysis_service/.env
+cp backend/.env.example backend/.env.local  
+cp frontend/.env.example frontend/.env.production
+
+# Edit .env files with your configuration
+nano analysis_service/.env  # Add OPENAI_API_KEY
+nano backend/.env.local
+nano frontend/.env.production  # Set your EC2 IP
+
+# Deploy
+docker-compose build
+docker-compose up -d
+```
+
+Access at: `http://YOUR_EC2_IP`
+
 
 ## Development
 
