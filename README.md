@@ -96,7 +96,7 @@ Detailed documentation on system architecture, API endpoints, and configuration 
 3. **Build and Run**:
 
    ```bash
-   cd resume-ranking
+   cd RESUME_RANKER
    docker compose build
    docker compose up
    ```
